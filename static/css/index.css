@@ -7,10 +7,11 @@
         bottom: 0 !important;
     }
 
-    .pol-canvas-text {
+    #pol-canvas-1>.pol-canvas-text {
         width: calc(100% - 30px) !important;
         height: calc(25% - 30px) !important;
-        top: calc(15% + 15px);
+        top: calc(15% + 15px) !important;
+        font-weight: unset;
     }
 
     #pol-canvas-1-text {
@@ -26,9 +27,16 @@
         margin-right: 30px;
     }
 
-    #pol-canvas-2>.pol-canvas-text {
+    #pol-canvas-4, #pol-canvas-3{
+        height: 100vh;
+    }
+
+    .pol-canvas>.pol-canvas-text {
+        width: 100% !important;
+        height: 15vh !important;
         text-align: left;
-        left: 0 !important;
+        left: 30px !important;
+        top: 0 !important;
         font-size: 30px;
         font-weight: bold;
     }
@@ -42,6 +50,11 @@
         left: 0;
         top: 0vh !important;
         width: 100% !important;
+    }
+
+    .pol-canvas-text-g #dev-cal-2{
+        width: calc(100% - 60px);
+        word-wrap: break-word;
     }
 
     #pol-canvas-1-box {
