@@ -27,15 +27,17 @@
         margin-right: 30px;
     }
 
-    #pol-canvas-4, #pol-canvas-3{
-        height: 100vh;
+    #pol-canvas-4,
+    #pol-canvas-3 {
+        height: 120vh;
     }
 
     .pol-canvas>.pol-canvas-text {
-        width: 100% !important;
+        width: calc(100% - 30px) !important;
         height: 15vh !important;
         text-align: left;
         left: 30px !important;
+        margin-right: 30px !important;
         top: 0 !important;
         font-size: 30px;
         font-weight: bold;
@@ -52,7 +54,7 @@
         width: 100% !important;
     }
 
-    .pol-canvas-text-g #dev-cal-2{
+    .pol-canvas-text-g #dev-cal-2 {
         width: calc(100% - 60px);
         word-wrap: break-word;
     }
