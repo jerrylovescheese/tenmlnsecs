@@ -5,10 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pol.jerryly.top</title>
+    <script src="./static/js/jquery-3.7.1.js"></script>
+    <script src="./static/js/include.js"></script>
+    <script src="./static/js/loader.js"></script>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 
 <body>
-
+    <include src="./layout/layout_for_index.html"></include>
+    <div class="loader-wrapper">
+        <i class="fa-solid fa-spinner fa-spin"></i>&emsp;<span id="loader-prompt">Preparing elements.</span>
+    </div>
+    <include src="./layout/footer.html"></include>
 </body>
 
 </html>
