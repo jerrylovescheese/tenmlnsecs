@@ -9,6 +9,7 @@
     <script src="./static/js/include.js"></script>
     <script src="./static/js/loader.js"></script>
     <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/fontawesome/css/all.css">
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -19,6 +20,25 @@
     <div class="loader-wrapper">
         <i class="fa-solid fa-spinner fa-spin"></i>&emsp;<span id="loader-prompt">Preparing elements.</span>
     </div>
+
+    <div class="pol-canvas" id="pol-canvas-1">
+        <div class="pol-canvas-text">
+            <div id="pol-canvas-1-text">All eyes on US <br></div>
+            <div id="pol-canvas-2-text">关注美国大选</div>
+            <p id="dev-cal-2">今天就是选举日！pol.jerryly.top将实时跟踪所有选举动态。</p>
+        </div>
+        <iframe
+            src="https://projects.fivethirtyeight.com/polls/president-general/2024/national/?ex_cid=abcpromo#:~:text=Who’s ahead in the national polls?"
+            frameborder="0"></iframe>
+    </div>
+
+    <div class="pol-canvas" id="pol-canvas-2">
+        <div class="pol-canvas-text">
+            <div id="pol-canvas-2-text">政治与所有人都没什么关系</div>
+        </div>
+        <div id="dev-cal-2">于是便有了政治家，因为他们善于创造关系。</div>
+    </div>
+
     <include src="./layout/footer.html"></include>
 </body>
 
